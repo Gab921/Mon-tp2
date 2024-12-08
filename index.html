@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Final</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="global">
+      <div id="acceuil">
+        <h1>Kubricism</h1>
+        <h2>Acceuil</h2>
+        <nav>
+          <img src="img/cinema.jpg" alt="Cinema">
+          <a href="#inscription">Inscription</a>
+          <a href="#tableau">Tableau</a>
+          <a href="#cont-videos">Vidéos</a>
+          <a href="#articles">Articles</a>
+          <a href="#photos">Photos</a>
+          <a href="#informations">Informations</a>
+          <img src="img/camera.jpg" alt="Camera">
+        </nav>
+        <div id="cont">
+          <div id="cont1">
+            <p>TP2-Automne 2024</p>
+            <p>Titre: Kubricism</p>
+            <p>Gabriel Bérubé-Beaulieu</p>
+            <p>Technique d'intégration Multimédia</p>
+            <p>Collège Maisonneuve</p>
+            <div id="tableau">
+              <h3>Voici un tableau de ses films les plus populaires:</h3>
+              <table>
+                <tr>
+                  <th>Films</th>
+                  <th>Genre</th>
+                  <th>Années</th>
+                  <th>Box-Office</th>
+                </tr>
+                <tr>
+                  <td>Eyes Wide Shut</td>
+                  <td>Thriller</td>
+                  <td>1999</td>
+                  <td>162.1M</td>
+                </tr>
+      
+                <tr>
+                  <td>2001: A Space Odyssey</td>
+                  <td>Scifi</td>
+                  <td>1968</td>
+                  <td>146M</td>
+                </tr>
+      
+                <tr>
+                  <td>FullMetal Jacket</td>
+                  <td>Guerre</td>
+                  <td>1987</td>
+                  <td>120M</td>
+                </tr>
+      
+                <tr>
+                  <td>A Orange Clockwork</td>
+                  <td>Triller</td>
+                  <td>1971</td>
+                  <td>114M</td>
+                </tr>
+      
+                <tr>
+                  <td>The Shining</td>
+                  <td>Thriller</td>
+                  <td>1980</td>
+                  <td>47.3M</td>
+                </tr>
+      
+                <tr>
+                  <td>Barry Lyndon</td>
+                  <td>Historique</td>
+                  <td>1975</td>
+                  <td>31.5M</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div id="inscription">
+            <h2>Inscription</h2>
+            <p>
+              Si vous désirez vous inscrire au groupe Kubricism, voici le
+              formulaire à remplir, dans ce groupe, nous parlerons de l’incroyable
+              réalisateur de film Stanley Kubrick, qui, durant des décennies à
+              marquer et révolutionner l'art du Cinéma, étant considéré comme
+              l'un des meilleurs réalisateurs au monde et ayant créer plusieurs
+              films cultes.
+            </p>
+            <form action="">
+              <label for="nom">Nom:</label
+              ><input type="text" id="nom" name="nom" />
+              <input type="submit" id="btn_submit" value="Soumettre" />
+            </form>
+
+            <label for="genre">Sexe:</label>
+            <form>
+              <input type="radio" id="genre" name="genre" value="homme" />
+              <label for="homme">Homme</label><br />
+              <input type="radio" id="genre" name="genre" value="femme" />
+              <label for="femme">Femme</label><br />
+              <input type="radio" id="genre" name="genre" value="autre" />
+              <label for="autre">Autre</label>
+            </form>
+            <input type="submit" id="btn_submit" value="Soumettre" />
+            <p>Si vous avez cochez autre veuillez écrire votre genre:</p>
+            <form action="">
+              <label for="genre">Autre:</label
+              ><input type="text" id="autre" name="autre" />
+              <input type="submit" id="btn_submit" value="Soumettre" /> 
+            </form>
+
+            <h2>Adresse courriel:</h2>
+            <p>veuillez insérez votre adresse courriel</p>
+            <form action="">
+              <label for="courriel">Courriel:</label
+              ><input type="text" id="courriel" name="courriel" />
+              <input type="submit" id="btn_submit" value="Soumettre" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!--Ajouter l'adresse github-->
+
+      
+
+      <div id="cont-videos">
+        <div id="videos1">
+          <h2>Barry Lyndon</h2>
+          <p>
+            Ceci est la bande-annonce d'un de mes films préféré de Stanley
+            Kubric, Barry Lyndon
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/XjPSGuJskxM?si=vw27qkfVym3571Pf"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div>
+          <h2>2001: A Space Odyssey</h2>
+          <p>
+            Ceci est la bande annonce de mon film préféré de tout les temps,
+            2001: A Space Odyssey
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kR2r-A9H3Kg?si=YVm5TwyFyzDoFRDI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div id="articles">
+        <h2>Kubrick et ses oeuvres</h2>
+        <h3>Carrière</h3>
+        <p>
+          Stanley Kubrick, étant aujourd'hui reconnu comme l'un des meilleures
+          réalisateur, n'a pas toujours eu ce titre, ces films étant
+          régulièrement tourné à la controverse, à cause des ses sujets crues et
+          hors du communs ou sujet considéré Taboo pour l'époque. A Clockwork
+          Orange étant un bon exemple, c'est un film qui veut dénonçer le
+          contrôle du gouvernement et qu'ils ne tiennent pas vraiment à notre
+          liberté d'expression, ils veulent seulement qu'on agisse bien et que
+          peut importe le reste. Apportant un débat morale à quel point est-ce
+          correct de brimer la liberté de quelqu'un pour le bien de la société.
+         
+        </p>
+        <div id="img1">
+          <img src="img/shining1.avif" alt="The Shining">
+          <img src="img/shining2.webp" alt="The Shining">
+        </div>
+        <p>
+          Il y a aussi, Lolita, qui parle d'un homme qui tombe en amour d'une
+          petite fille de 12 ans, les gens n'étaient pas très réceptifs à propos
+          d'un film sur la pédophilie.
+        </p>
+        <div id="img2"> 
+          <img src="img/2001.avif" alt="Space Odysssey">
+          <img src="img/barrylyndon1.jpg" alt="Barry Lyndon">
+        </div>
+        <p>
+          Pour terminer, il ne faut pas oublier The Shining qui, aujourd'hui, est
+          considéré comme un film de suspense et d’horreur culte ainsi qu'une référence
+          cinématographique, mais quand le film est sorti, les gens ont
+          détesté et le film à même gagner un prix radis pour le pire film de
+          l'année
+        </p>
+
+        <h2>Raisons d'apprécier Kubrick</h2>
+        <p>
+          Il y a plusieurs raisons pour lesquelles j'apprécie Kubrick et qu'il est
+          mon réalisateur préféré. Je suis un grand admirateur de cinéma depuis un bout
+          de temps, mais jamais aucun film ne m'a fait ressentir ce que les films
+          de Stanley Kubrick m'ont fait ressentir. Que ce soit par son incroyable
+          cinématographie qui est distinguée par beaucoup de géométrie. Ainsi que
+          son attention particulière aux détails de ses films, il était un humain
+          très perfectionniste et cela paraît beaucoup dans ses
+          films. Finalement, il était extrêmement innovateur pour l'époque et à
+          fait des films que, même aujourd'hui les gens ne sont pas capables de
+          reproduire la beauté de ses films. Il a tourné un film dans l'espace
+          qui est très semblable à l'espace qu'on connaît, avant même qu'on
+          puisse déposer un pied sur la lune. Barry Lyndon a été filmé avec des
+          lentilles de la Nasa et est fait en sorte que chaque frame du film
+          ressemble à une peinture, ce qui est incroyable considérant l'époque
+          qu'il a réalisé ces fameux films.
+        </p>
+      </div>
+
+      <h2>Galerie Photos</h2>
+      <div id="photos">
+        <figure>
+          <img src="img/Stanley Kubrick 2.webp" alt="Stanley Kubrick" />
+          <figcaption>Stanley Kubrick Tournage</figcaption>
+        </figure>
+        <figure>
+          <img src="img/FMJ1.jpg" alt="Full Metal Jacket" />
+         <figcaption>FullMetal Jacket</figcaption>
+        </figure>
+        <figure>
+          <img src="img/FMJ2.jpg" alt="Full Metal Jacket" />
+          <figcaption>FullMetalJacket</figcaption>
+        </figure>
+        <figure>
+          <img src="img/barrylyndon2.webp" alt="Barry Lyndon" />
+          <figcaption>Barry Lyndon</figcaption>
+        </figure>
+        <figure>
+          <img src="img/orangeclockwork2.jpg" alt="Orange Mecanique" />
+         <figcaption>Orange Clockwork</figcaption>
+        </figure>
+      </div>
+
+      <div id="informations">
+        <footer>
+          <h2>Informations</h2>
+          <p>3800 R. Sherbrooke E, Montréal, QC H1X 2A2</p>
+          <p>Liens important</p>
+          <div id="icon">
+            <img src="img/logo-facebook.svg" alt="Facebook" />
+            <img src="img/logo-instagram.svg" alt="Instagram" />
+            <img src="img/logo-twitter.svg" alt="Twitter" />
+          </div>
+      
+          <p>Avis de confidentalité</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
